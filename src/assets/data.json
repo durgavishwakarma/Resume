@@ -1,0 +1,118 @@
+{
+    "Name": "Durga Vishwakarma",
+    "image": "profile Image",
+    "position": "Frontend Developer",
+    "mobileNumber": "9399198322",
+    "email": "durgavishwakarma2009@gmail.com",
+    "linkedin": "LinkedIn: www.linkin.com/in/durga-vishwakrma-4832b3236",
+    "github": "Github: https://github.com/durgavishwakarma",
+    "address": "location: House No-LIG 116(B),Shri Krishna Puram, Bhopal, Madhya Pradesh(MP)",
+    "skils": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Angular",
+        "Ionic",
+        "Cordova&Capacitor"
+    ],
+    "expertise": [
+        "Key Experties",
+        "Cordova-Capacitor",
+        "Android Studio & SDK",
+        "Google play store and App store Geolocation Plugins, camera plugins, PDF generator",
+        "API Integration "
+    ],
+    "About": "With 1 year 10 months of hands-on experience as a mobile developer, I am recognized for my exceptional multitasking abilities and dedication to delivering high-quality work. I thrive on challenges and leverage a creative mindset to consistently deliver effective solutions. Committed to continuous improvement, I actively enhance my skills to drive positive outcomes",
+    "Abouttitle": "About",
+    "Achievements": [
+        "Netball State Player.",
+        "NCC under Officer Position in second year. ",
+        "The All India Essay Competition (First Position)."
+    ],
+    "hobbies": [
+        "Hobbies",
+        "Art & Craft",
+        "Dance",
+        "Poetry"
+    ],
+    "education": [
+        {
+            "standard": "MCA",
+            "year": "2022",
+            "grade": "9.4CGPA",
+            "school": "R.G.P.V University Bhopal (MP)"
+        },
+        {
+            "standard": "BCA",
+            "year": "2020",
+            "grade": "72%",
+            "school": "Barkatullah Univercity Bhopal (MP)"
+        },
+        {
+            "standard": "Higher Secodary",
+            "year": "2017",
+            "grade": "80%",
+            "school": "State board Bhopal (MP)"
+        }
+    ],
+    "WorkExp": [
+        {
+            "CompanyName": "Techizer Tech Solution",
+            "Duration-comp": "August 2023-June 2024",
+            "Projects": [
+                {
+                    "Name": "CuRx Tracker",
+                    "Duration": "September 2023-October 2023",
+                    "Description": "Maintained an application for constructive work analysis on Play Store and iOS platforms.Ensured compliance with guidelines and regularly updated SDK versions and plugins.Maintained compatibility with updated plugins and SDK versions, ensuring seamless operation."
+                },
+                {
+                    "Name": "Sahyog Patient",
+                    "Duration": "January 2024-April 2024",
+                    "Description": "Developed a patient support application with a complete UI design using HTML, CSS, and Ionic.implemented features for patient education, including yoga exercise videos and downloadable diet charts in PDF format by using PDF viewer.I used Tailwind CSS to create a visually appealing card component with a shadow, rounded corners, and a gradient background, making it more attractive and modern"
+                },
+                {
+                    "Name": "Spedo Plus",
+                    "Duration": "August 2023-December 2023",
+                    "Description": "Implemented native Android features such as download functionalities using Android XML and native code integration.Led the development of an application targeting Campaign Visits with Ionic 4 and Angular 11."
+                },
+                {
+                    "Name": "Ndep",
+                    "Duration": "October 2023-December 2023",
+                    "Description": "Developed a mobile application utilizing the Ionic Angular framework for Cordova Ionic 5.Implemented intuitive user interfaces using CSS and HTML, ensuring compatibility across various SDK versions. Also updated plugins.Created APK and enterprise link (iOS) for test and live on both platform "
+                },
+                {
+                    "Name": "February 2023-December 2023",
+                    "Duration": "123",
+                    "Description": "I updated the application to SDK 33 to comply with Google's policies, redeployed it, debugged the application and resolved all plugin issues for a seamless experience. "
+                }
+
+            ]
+        },
+        {
+            "CompanyName": "Technogiq IT Solutions ",
+            "Duration-comp": "July 2022-July 2023",
+            "Projects": [
+                {
+                    "Name": "Aryvrat",
+                    "Duration": "February 2023-July 2023",
+                    "Description": "Collaborated on developing a teaching and learning app with multiple master and user functionalities by using ionic framework and angular.Create UI, APK & IPA."
+                },
+                {
+                    "Name": "Stepit",
+                    "Duration": "May 2023-July 2023",
+                    "Description": "Developed a fitness application using Ionic framework, incorporating gamification features for enhanced user engagement.Implemented timing and alarm functionality as per client requirements, ensuring optimal performance by angular."
+                },
+                {
+                    "Name": "Rullo",
+                    "Duration": "August 2023- December",
+                    "Description": "Integrated Google Maps API for data retrieval, ensuring thorough testing and UI deployment on both platforms.Implemented a review function allowing users to leave feedback on visited bars and restaurants, utilizing Google API for data retrieval."
+                },
+                {
+                    "Name": "Standard Bank",
+                    "Duration": "October 2023-April 2023",
+                    "Description": "Played a pivotal role in developing a banking application using Ionic Angular, Tailwind CSS, and HTML.Integrated APIs, and provided deployment support for multiple platforms.Integrate Panic functionality (vibration features) by using Cordova plugins."
+                }
+            ]
+        }
+    ]
+}
