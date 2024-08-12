@@ -1,0 +1,38 @@
+
+        <div class="fw-bold text-left text-accent  custom-title">
+          <ins>Education</ins>  
+        </div>
+        <div *ngFor="let edu of educationData.education">
+            <div class="mb-0 text-black ">
+                <li class="font-weight-bolder cutom">
+                    {{edu.school}}
+
+                </li>
+
+            </div>
+            <div class="cus-list-view">
+                <div>
+                    {{edu.standard}}
+                    <span class="font-weight-bold">
+                        {{edu.year}}
+
+                    </span>
+                </div>
+
+                <div>
+                    {{edu.grade}}
+
+                </div>
+            </div>
+
+        </div>
+    <div class="col-md-7 custom-md">
+      <div class="fw-bold text-left  text-accent custom-title">            <ins>Hobbies</ins> </div>
+          <div *ngFor="let hobbie of educationData.hobbies">
+            <ul class="custom-list">
+              <li>
+                {{hobbie}}
+              </li>
+            </ul>
+          </div>
+        </div>

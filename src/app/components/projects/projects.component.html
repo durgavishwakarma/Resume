@@ -1,0 +1,37 @@
+
+<div class="">
+    <div class="fw-bold text-left  text-accent  custom-title">
+      <ins>Projects</ins>  </div>  
+  
+    <div *ngFor="let workExperience of projectData.WorkExp">
+      <div class="font-weight-bold cutom" >
+        <strong>        {{workExperience.CompanyName}}: {{workExperience.Durationcomp}}
+        </strong>
+    </div>
+      <span></span>
+
+
+
+  
+      <div *ngFor="let project of workExperience.Projects; let ser = index ">
+        <div>
+          <!-- {{ser}} -->
+        </div>
+        <div class="font-weight-bolder cutom" >
+            
+   {{ser+1}} .  {{project.Name}}: {{project.Duration}}
+            
+        </div>
+  
+   
+  
+        <div>
+          <ul>
+            <li>
+                {{project.Description}}
+            </li>
+          </ul> </div>
+      </div>
+    </div>  
+  </div>
+  

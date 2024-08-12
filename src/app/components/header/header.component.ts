@@ -9,7 +9,6 @@ import { Component,Input } from '@angular/core';
 export class HeaderComponent {
   @Input() headerData: any;
   ngOnInit() {
-    
 console.log('ddd',this.headerData)
   }
 }

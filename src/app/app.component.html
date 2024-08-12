@@ -1,13 +1,45 @@
-<main>
+ <main>
 
-  <app-header [headerData]="appData" ></app-header>
-  <!-- <div class="container">
+  <app-header [headerData]="appData"></app-header>
+  <div class="main-div">
     <div class="row">
-      <div class="col-md-6">
-        <h1 class="text-primary">Welcome to Bootstrap with Angular 18</h1>
-        <p class="lead">This is a simple example of using Bootstrap in an Angular application.</p>
+      <div class="col-md-5">
+        <app-contact [Info]="appData?.email"
+
+        [mobileNumber]="appData?.mobileNumber"
+        [linkedin]="appData?.linkedin"
+        [address]="appData?.address"
+        [github]="appData?.github"
+        [titleData]="'Contact'">
+        </app-contact>
+
+       
+        <app-list [Data]="appData?.skills" [titleData]="'Technical Skills'">
+        </app-list>
+
+        <app-list [Data]="appData?.softskils" [titleData]="'SoftSkills'">
+        </app-list>
+
+      </div>
+      <div class="col-md-7">
+        <app-about [Data]="appData?.About "[titleData]="'About'">
+
+        </app-about> 
+        <app-list [Data]="appData?.expertise" [titleData]="'KeyExperties'">
+        </app-list>
+        <app-list [Data]="appData?.Achievements" [titleData]="'Achievements'">
+        </app-list>
+        <app-list [Data]="appData?.hobbies" [titleData]="'Hobbies'">
+        </app-list>
       </div>
     </div>
-  </div> -->
+    <!-- <app-education [educationData]="appData">
+    </app-education>
+    <app-projects [projectData]="appData">
+
+    </app-projects> -->
+  </div>
+
 </main>
+
 <router-outlet />

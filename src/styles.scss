@@ -14,3 +14,24 @@
 // .grid-item {
 //     padding: 10px;
 // }
+.custom-title{
+    padding: 25px 0px 10px 15px;}
+    :root {
+        --primary-color: #3498db; /* Example primary color */
+        --accent-color: #500640; /* Example accent color */
+    }
+    .text-accent {
+        color: var(--accent-color);
+        font-size: 20px;
+      }
+      .custom-list{
+margin-bottom: 0px;
+      }
+
+      .cus-list-view{
+        padding-left: 10px;
+        margin-bottom: 0px;
+    }
+    .cutom{
+        font-weight: 600;
+    }
